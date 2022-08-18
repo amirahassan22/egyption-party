@@ -1,0 +1,204 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.slider{
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.inner-slider{
+    background-color: rgba(214, 46, 51, 0.6);
+    z-index: 999999999;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-content{
+    width: 100%;
+}
+.slider-content h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+/* .sidebar{
+    background-color: #414658;
+} */
+.slider-content p{
+    font-size: 14px;
+    
+}
+.sidebar-icon{
+    color: #fff;
+    font-size: 30px;
+    left: 0;
+
+}
+.sidebar-icon p{
+    font-size: 30px;
+}
+.sidebar-icon i{
+    margin-right: 5px;
+}
+.sidebar-area{
+    height: 100vh;
+    width: 0;
+    z-index: 99999;
+    overflow: hidden;
+    background-color: #414658;
+    
+}
+.close i{
+   position: absolute;
+   right: 30px;
+   top: 30px;
+   color: #fff;
+   font-size: 24px;
+   transition: all 500ms ease;
+}
+.sidebar-area ul{
+    margin-top: 50px;
+    z-index: 9999999999999;
+}
+.sidebar-area ul li{
+    padding-top: 50px;
+}
+.sidebar-area ul li a{
+    color: #fff;
+    font-size: 25px;
+    transition: all 500ms ease;
+}
+.sidebar-area ul li a:hover{
+    color: #d62e33;
+}
+.close i:hover{
+    color: #d62e33;
+}
+/* start details */
+
+.singers{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.singers h3{
+    background-color: rgba(214, 46, 51, 0.6);
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 500 !important;
+    
+}
+.singers .singer-info{
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    font-size: 14px;
+    display: none;
+}
+/* end details */
+
+/* start duration */
+#duration{
+    background-image: url(../imgs/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 330px;
+}
+.event-time{
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 100%;
+}
+.time{
+    text-align: center;
+     border: 1px solid #fff;
+     padding: 50px 0;
+     color: #fff;
+}
+
+/* end duration */
+
+/* start contact */
+#contact{
+    padding: 50px 0 ;
+}
+.contact-details{
+    padding: 40px 0;
+}
+.contact-form p span{
+    font-size: 20px;
+    color: #d62e33;
+}
+input{
+    margin-bottom: 20px;
+    padding: 10px !important;
+}
+textarea{
+    height: 180px;
+}
+.contact-info-details{
+    text-align: center;
+}
+.contact-details p{
+    color: #777;
+}
+.contact-details h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #444444;
+}
+.contact-info h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+
+}
+.con-content p{
+    padding-bottom: 25px;
+
+}
+.con-content p i{
+    padding-right: 10px;
+}
+.con-content .text-red{
+    color: #d62e33;
+}
+.con-content .text-red i{
+    color: #777;
+}
+.social-icons ul{
+    margin-left: -35px;
+}
+.social-icons ul li{
+    width:40px;
+    height: 40px;
+    border: 1px solid #777;
+    margin-right:  15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease;
+}
+.social-icons ul li a{
+    font-size: 18.6667px;
+    color: #777;
+    transition: color 500ms ease;
+}
+.social-icons ul li:hover a{
+    color: #fff;
+}
+.social-icons ul li:hover{
+    background-color: #d62e33;
+    border: none;
+}
+/* end contact */
